@@ -1,0 +1,29 @@
+body{
+    background-image: url(../assets/images/heroCM.jpg);
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+}
+.signin-form{
+    display: flex;
+    width: 60%;
+    max-width: 100%;
+    padding: 15px;
+    flex-flow: column nowrap;
+    margin: 0 auto;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    background-color: #000000c4;
+    flex: .7;
+}
+.form-btns{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex: 0.7;
+}
